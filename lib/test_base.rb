@@ -3,7 +3,7 @@
 require 'test/unit'
 require 'pp'
 
-class TestBase < Test::Unit::TestCase
+class Test::TestBase < Test::Unit::TestCase
   @@test_template = {}
   def run(*args)
     return if(@method_name.to_s == "default_test")

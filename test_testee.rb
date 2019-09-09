@@ -3,7 +3,7 @@ $LOAD_PATH.push('./lib')
 require 'test_base'
 require './testee'
 
-class TesteeTest < TestBase
+class TesteeTest < Test::TestBase
   def setup
     @testee = Testee.new
   end
